@@ -1,0 +1,19 @@
+---
+title: "Mailbag de github"
+author: "Víctor Nahuelpán"
+date: "06-10-2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Probando
+
+```{r}
+library(tidyverse)
+data("mtcars")
+ggplot(mtcars, aes(x=wt,y= mpg)) + geom_smooth(method = "lm") + geom_point() + theme_bw()
+```
+
